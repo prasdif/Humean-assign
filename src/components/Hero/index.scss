@@ -12,23 +12,22 @@
     font-size: 60px;
     font-weight: bold;
     margin-bottom: 32px;
-    color: #202124 !important;   // ✅ force full black
+    color: #202124 !important;  
     line-height: 1.2;
     opacity: 1 !important;  
-    margin-bottom: 60px;     // ✅ ensure no fade
+    margin-bottom: 60px;     
   }
 
   .download-btn {
     background: #1a73e8;
     border: none;
-    color: #fff !important;      // ✅ force white text
+    color: #fff !important;     
     font-size: 18px;
     padding: 14px 40px;
     border-radius: 32px;
     cursor: pointer;
     transition: background 0.3s;
-    opacity: 1 !important;       // ✅ button visible
-
+    opacity: 1 !important;       
     &:hover {
       background: #1669c1;
     }
